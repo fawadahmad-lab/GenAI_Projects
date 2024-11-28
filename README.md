@@ -69,15 +69,41 @@ Follow these steps to set up and run projects from this repository locally.
 ```bash
 git clone https://github.com/fawadahmad-lab/GenAI_Projects.git
 cd GenAI_Projects
+```
+2. Install Dependencies:
+Create a virtual environment and install the required libraries:
+```bash
 # Create a virtual environment (optional but recommended)
 python -m venv venv
 # Activate the virtual environment
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 # Install required libraries
 pip install -r requirements.txt
+```
+3. Set Up API Keys:
+For OpenAI, get your API key from OpenAI.
+For Hugging Face, get your API key from Hugging Face.
+Set the API keys as environment variables.
+```bash
 export OPENAI_API_KEY="your_openai_api_key"
 export HF_API_KEY="your_huggingface_api_key"
-python sentiment_analysis.py
+```
+#. Run the Project
+```bash
+python sentiment_analysis.py  # Example for sentiment analysis project
+```
+Contributing
+Contributions are always welcome! If you have an idea for a new project, want to fix a bug, or improve existing code, feel free to open a pull request.
+
+Fork the repository.
+Create your branch (git checkout -b feature-name).
+Commit your changes (git commit -m 'Add new feature').
+Push to the branch (git push origin feature-name).
+Open a pull request.
+
 Connect With Me:
 LinkedIn: fawadqureshi-034481216
 Email: fawadqureshi136@gmail.com
+
+
+
